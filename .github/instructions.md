@@ -35,4 +35,4 @@ To run the data wrangling notebook:
 2. Execute each cell sequentially to clean the data.
 
 ## Conclusion
-This document serves as a guide for AI coding agents to understand the project structure, workflows, and conventions. For further assistance, refer to the individual notebooks for detailed instructions on specific tasks.
+This document serves as a guide to understand the project structure, workflows, and conventions. For further assistance, refer to the individual notebooks for detailed instructions on specific tasks.
