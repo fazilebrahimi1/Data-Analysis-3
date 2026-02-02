@@ -18,3 +18,11 @@ Validity is tested across time (Berlin earlier snapshot) and space (Geneva).
 
 ## Reproducibility
 All analysis can be reproduced by running the notebooks in order from `01` to `05`.
+
+## Environment / Requirements
+
+Install dependencies with:
+
+pip install -r requirements.txt
+
+The project uses standard Python data science libraries and can be run in any Jupyter environment.
