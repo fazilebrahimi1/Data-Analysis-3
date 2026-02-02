@@ -1,4 +1,4 @@
-# Copilot Instructions for Airbnb Price Prediction Project
+# Project overview for Airbnb Price Prediction Project
 
 ## Overview
 This project focuses on analyzing Airbnb listings in Berlin, utilizing various data science techniques to predict rental prices. The architecture is modular, with distinct components for data processing, modeling, and evaluation.
