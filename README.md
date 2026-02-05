@@ -1,28 +1,65 @@
 # Airbnb Price Prediction – Data Analysis 3
 
-This project builds and evaluates predictive models for Airbnb listing prices using data from Inside Airbnb.
+This project develops and evaluates predictive models for Airbnb listing prices using data from Inside Airbnb. The objective is to compare different modeling approaches and assess how well they generalize across time and across markets.
 
-## Structure
-- `data/raw/`: raw Airbnb listings data
-- `data/processed/`: cleaned datasets
-- `notebooks/`: analysis notebooks
+---
+
+## Project Structure
+
+- `data/raw/`  
+  Raw Airbnb listings data downloaded from Inside Airbnb.
+
+- `data/processed/`  
+  Cleaned and preprocessed datasets used for modeling.
+
+- `notebooks/`  
+  Jupyter notebooks containing the full analysis:
+  - `01_data_wrangling.ipynb` – data cleaning and feature engineering  
+  - `02_linear_models.ipynb` – OLS, LASSO, Elastic Net  
+  - `03_tree_models.ipynb` – Random Forest and Gradient Boosting  
+  - `04_model_comparison.ipynb` – horserace and performance comparison  
+  - `05_validity_analysis.ipynb` – temporal and geographical validity checks  
+
+---
 
 ## Methods
-Models used:
-- OLS
-- LASSO
-- Random Forest
-- Gradient Boosting
 
-Validity is tested across time (Berlin earlier snapshot) and space (Geneva).
+The following predictive models are implemented and compared:
+
+- Ordinary Least Squares (OLS)  
+- LASSO  
+- Elastic Net  
+- Random Forest  
+- Gradient Boosting  
+
+Model performance is evaluated using out-of-sample RMSE and R².
+
+---
+
+## Validity Analysis
+
+Model validity is assessed in two dimensions:
+
+- Temporal validity:applying the models to a later snapshot of Berlin listings (2025 Q1).  
+- Geographical validity: applying the same models to listings from Geneva to evaluate transferability across markets.
+
+This setup allows an assessment of whether pricing relationships remain stable over time and across cities.
+
+---
 
 ## Reproducibility
-All analysis can be reproduced by running the notebooks in order from `01` to `05`.
+
+The analysis is fully reproducible.  
+All notebooks can be run sequentially from `01` to `05`, starting from the raw data and ending with the validity analysis.
+
+---
 
 ## Environment / Requirements
 
-Install dependencies with:
+All required dependencies are listed in `requirements.txt`.
 
+To install them, run:
+
+```bash
 pip install -r requirements.txt
 
-The project uses standard Python data science libraries and can be run in any Jupyter environment.
