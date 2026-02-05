@@ -1,4 +1,4 @@
-# Copilot Instructions for Airbnb Price Prediction Project
+# Instructions for Airbnb Price Prediction Project
 
 ## Overview
 This project focuses on analyzing Airbnb listings in Berlin, utilizing various data science techniques to predict rental prices. The architecture is modular, with distinct components for data processing, modeling, and evaluation.
@@ -35,4 +35,4 @@ To run the data wrangling notebook:
 2. Execute each cell sequentially to clean the data.
 
 ## Conclusion
-This document serves as a guide for AI coding agents to understand the project structure, workflows, and conventions. For further assistance, refer to the individual notebooks for detailed instructions on specific tasks.
+This document serves as a guide for coding agents to understand the project structure, workflows, and conventions. For further assistance, refer to the individual notebooks for detailed instructions on specific tasks.
